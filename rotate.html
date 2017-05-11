@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box{
+            transform: rotate(45deg);
+            width: 100px;
+            height: 100px;
+            background: lightblue;
+            margin: 100px;
+        }
+        .origin{
+            /**
+                transform-origin定义的是旋转的基点
+            */
+            transform-origin: top left;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box origin"></div>
+</body>
+</html>

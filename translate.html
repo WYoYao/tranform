@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            position: relative;
+        }
+        .box{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background: lightblue;
+            /**
+                对应的 xy 轴
+            */
+            transform: translate(20px,30px);
+            top: 0;
+            left: 0;
+        }
+        .mar{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 20px;
+            height: 30px;
+            margin: 0;
+            padding: 0;
+            background: red;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="mar"></div>
+    <div class="box"></div>
+</body>
+</html>
